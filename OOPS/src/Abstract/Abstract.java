@@ -1,7 +1,10 @@
+package Abstract;
+
 // Base abstract class
 abstract class Animal{
     int abs = 0;
     public abstract void sound();
+
     public void sleep() {
         System.out.println("Zzz");
     }
@@ -19,7 +22,7 @@ class Pig extends Animal{
     }
 }
 
-public class AbstractOOPS {
+public class Abstract {
     public static void main(String[] args) {
 
         Pig pig = new Pig();
@@ -31,5 +34,6 @@ public class AbstractOOPS {
 /**
  abstract  can hold both abstract and non abstract methods
  we need to inherit abstract class to use and override the methods
- abstract not have method body {} empty
+ sub class can override the base method in run time
+ abstract not have method body
  */
