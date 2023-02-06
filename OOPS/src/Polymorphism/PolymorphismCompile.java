@@ -1,3 +1,5 @@
+package Polymorphism;
+
 class Add
 {
     int add(int a,int b)
@@ -25,4 +27,10 @@ public class PolymorphismCompile
     }
 
 }
+
+/**
+ Compile time polymorphism is method having a same but different forms (different parameter).
+ Based on the method type corresponding method called.
+ Other wide called as Overloading....
+ */
 
