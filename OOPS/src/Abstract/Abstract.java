@@ -33,6 +33,7 @@ public class Abstract {
 
 /**
  abstract  can hold both abstract and non abstract methods
+ abstract class can't be instantiated
  we need to inherit abstract class to use and override the methods
  sub class can override the base method in run time
  abstract not have method body
